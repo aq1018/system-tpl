@@ -8,5 +8,5 @@ exports.setDefaultTemplateSettings = function(settings) {
 
 exports.translate = function(load) {
   var compiled = _.template(load.source);
-  load.source = compiled.source;
+  load.source = 'var _ = require(\'underscore\'); module.exports = ' + compiled.source + ';';
 };
