@@ -7,6 +7,6 @@ exports.setDefaultTemplateSettings = function(settings) {
 };
 
 exports.translate = function(load) {
-  let compiled = _.template(load.src);
+  var compiled = _.template(load.source);
   load.source = compiled.source;
 };
