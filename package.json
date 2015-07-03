@@ -1,0 +1,29 @@
+{
+  "name": "system-tpl",
+  "version": "1.0.0",
+  "description": "jspm underscore template plugin",
+  "main": "tpl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aq1018/system-tpl.git"
+  },
+  "keywords": [
+    "jspm",
+    "systemjs",
+    "underscore",
+    "plugin",
+    "template"
+  ],
+  "author": "Aaron Qian <aq1018@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aq1018/system-tpl/issues"
+  },
+  "homepage": "https://github.com/aq1018/system-tpl#readme",
+  "dependencies": {
+    "underscore": "*"
+  }
+}
